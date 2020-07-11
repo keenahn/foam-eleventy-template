@@ -3,8 +3,8 @@
   command = "npx eleventy"
 
 [[redirects]]
-  from = "/404/posts/*"
-  to = "/posts/:splat"
+  from = "/404/bubbles/*"
+  to = "/bubbles/:splat"
   status = 301
   force = true
 
