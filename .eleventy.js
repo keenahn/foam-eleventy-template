@@ -8,6 +8,12 @@ module.exports = (eleventyConfig) => {
       output: "._site",
       includes: "_includes",
       layouts: "_layouts"
-    }
+    },
+    templateFormats: [
+      "md",
+      "html",
+      "liquid"
+    ],
+    passthroughFileCopy: true
   };
 }; 

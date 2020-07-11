@@ -5,7 +5,8 @@
   "scripts": {
     "start": "eleventy --serve --watch",
     "clean": "rm -rf ./_site",
-    "build": "npm run clean && eleventy"
+    "build": "npm run clean && eleventy",
+    "debug": "DEBUG=* eleventy"
   },
   "repository": {
     "type": "git",
