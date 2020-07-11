@@ -5,7 +5,7 @@ module.exports = (eleventyConfig) => {
   return {
     dir: {
       input: ".",
-      output: "._site",
+      output: "_site",
       includes: "_includes",
       layouts: "_layouts"
     },
