@@ -8,5 +8,12 @@
     "editor.quickSuggestions": true
   },
   "git.enableSmartCommit": true,
-  "git.postCommitCommand": "sync"
+  "git.postCommitCommand": "sync",
+  "files.exclude": {
+    "**/node_modules": true
+  },
+  "files.watcherExclude": {
+    "**/node_modules": true
+  },
+  "vscodeMarkdownNotes.noteCompletionConvention": "noExtension"
 }
