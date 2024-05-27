@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "template to create a foam workspace with eleventy",
   "scripts": {
-    "start": "eleventy --serve --watch",
+    "dev": "eleventy --serve --watch",
+    "start": "eleventy --serve",
     "clean": "rm -rf ./_site",
     "build": "npm run clean && eleventy",
     "debug": "DEBUG=* eleventy"
@@ -26,10 +27,10 @@
   },
   "homepage": "https://github.com/juanfrank77/foam-eleventy-template#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^0.11.0",
-    "clean-css": "4.2.3",
-    "markdown-it": "11.0.0",
-    "markdown-it-replace-link": "1.1.0",
-    "node-sass-promise": "1.0.0"
+    "@11ty/eleventy": "^2.0.1",
+    "clean-css": "5.3.3",
+    "markdown-it": "14.1.0",
+    "markdown-it-replace-link": "1.2.1",
+    "sass": "^1.77.2"
   }
 }
